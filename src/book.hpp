@@ -6,7 +6,7 @@
 
 class Book {
 public:
-    
+    Book(int id, const std::string& title, const std::string& author, int year, bool borrow): id_(id), title_(title), author_(author), year_(year), borrow_(borrow) {};
     Book(int id , const std::string& title, const std::string& author, int year ):id_(id),title_(title),author_(author),year_(year),borrow_(0){};//инициализация
     Book()=default;
     Book(const Book&)=default;

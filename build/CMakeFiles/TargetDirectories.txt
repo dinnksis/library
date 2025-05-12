@@ -1,5 +1,7 @@
+C:/library/build/CMakeFiles/sqlite.dir
 C:/library/build/CMakeFiles/ALL_BUILD.dir
 C:/library/build/CMakeFiles/ZERO_CHECK.dir
 C:/library/build/src/CMakeFiles/book.dir
+C:/library/build/src/CMakeFiles/database.dir
 C:/library/build/src/CMakeFiles/lib.dir
 C:/library/build/src/CMakeFiles/main.dir
