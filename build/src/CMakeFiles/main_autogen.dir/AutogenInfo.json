@@ -1,0 +1,202 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/library/build/src/main_autogen",
+	"CMAKE_BINARY_DIR" : "C:/library/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/library/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/library/src",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "C:/library/src/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "C:/library",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/library/src/mainwindow.hpp",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/library/build/src/main_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/library/build/src/main_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/library/build/src/main_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/library/build/src/main_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/library/build/src/main_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/library/build/src/main_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/library/build/src/main_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/library/build/src/main_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/library/build/src/main_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/library/build/src/main_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"C:/library/src",
+		"C:/library/sqlite",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
+		"C:/Qt/6.5.3/msvc2019_64/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
+		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"C:/library/src",
+		"C:/library/sqlite",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
+		"C:/Qt/6.5.3/msvc2019_64/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
+		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"C:/library/src",
+		"C:/library/sqlite",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
+		"C:/Qt/6.5.3/msvc2019_64/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
+		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"C:/library/src",
+		"C:/library/sqlite",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
+		"C:/Qt/6.5.3/msvc2019_64/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
+		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/library/build/src/book_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_Release.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_Release.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_Release.cpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/library/build/src/CMakeFiles/main_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/library/build/src/CMakeFiles/main_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/library/build/src/CMakeFiles/main_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/library/build/src/CMakeFiles/main_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/library/build/src/CMakeFiles/main_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "C:/library/build/src/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/library/build/src/CMakeFiles/main_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/library/build/src/CMakeFiles/main_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/library/build/src/CMakeFiles/main_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/library/build/src/CMakeFiles/main_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[ "C:/library/src/main.cpp", "MU", null ],
+		[ "C:/library/src/mainwindow.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"C:/library/build/src/book_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/book_autogen/mocs_compilation_Release.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/database_autogen/mocs_compilation_Release.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_Debug.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_MinSizeRel.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"C:/library/build/src/lib_autogen/mocs_compilation_Release.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

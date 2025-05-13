@@ -6,10 +6,10 @@
 
 class DatabaseManager {
 public:
-    DatabaseManager(const std::string& db_path);
+    DatabaseManager(const std::string& db_path); //подключение к бд
     ~DatabaseManager();
     
-    // Книги
+    //книги
     bool addBook(const Book& book);
     bool deleteBook(int id);
     std::vector<Book> getAllBooks();

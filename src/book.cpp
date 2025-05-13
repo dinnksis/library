@@ -16,7 +16,12 @@ int Book::getYear() const{
 
 void Book::setBorrowed(bool borrow){
     Book::borrow_=borrow;
-    std::cout<<"book is borrowed";
+    if (borrow){
+        std::cout<<"book is borrowed"<<std::endl;
+    } else {
+        std::cout<<"book returned"<<std::endl;
+    }
+    
 }
 
 bool Book::isBorrowed() const{
