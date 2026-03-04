@@ -1,23 +1,15 @@
 cmake_minimum_required(VERSION 3.20)
-project(library)
+project(LibrarySimulator VERSION 1.0.0)
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-set(CMAKE_AUTOUIC ON)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(Qt6_DIR "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6")
-find_package(Qt6 REQUIRED COMPONENTS Widgets Core)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_SOURCE_DIR}/bin.dbg)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_SOURCE_DIR}/bin.rel)
+#внешние зависимости
+add_subdirectory(external/sqlite)
 
-# SQLite 
-add_library(sqlite STATIC sqlite/sqlite3.c)
-target_include_directories(sqlite PUBLIC 
-    ${CMAKE_CURRENT_SOURCE_DIR}/sqlite
-    ${CMAKE_CURRENT_SOURCE_DIR}/src
-)
-
+#основные модули
 add_subdirectory(src)

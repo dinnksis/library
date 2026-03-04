@@ -1,0 +1,9 @@
+#сборка
+bin/
+bin.dbg/
+build/
+
+#бд
+*.db
+*.db3
+
